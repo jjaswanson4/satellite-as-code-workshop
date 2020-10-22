@@ -13,28 +13,10 @@ The Red Hat Ansible Automation Workshops project is intended for effectively dem
 
 | Workshop   | Presentation Deck  | Exercises  | Workshop Type Var   |
 |---|---|---|---|
-| **Ansible Red Hat Enterprise Linux Workshop** <br> focused on automating Linux platforms like Red Hat Enterprise Linux  | [Deck](./decks/ansible_rhel.pdf) | [Exercises](./exercises/ansible_rhel)  | `workshop_type: rhel`  |
-| **Ansible Network Automation Workshop** <br> focused on router and switch platforms like Arista, Cisco, Juniper   | [Deck](./decks/ansible_network.pdf) | [Exercises](./exercises/ansible_network)  | `workshop_type: network`  |
-| **Ansible F5 Workshop** <br> focused on automation of F5 BIG-IP  | [Deck](./decks/ansible_f5.pdf) | [Exercises](./exercises/ansible_f5)   | `workshop_type: f5` |
-| **Ansible Security Automation** <br> focused on automation of security tools like Check Point Firewall, IBM QRadar and the IDS Snort  | [Deck](./decks/ansible_security.pdf) | [Exercises](./exercises/ansible_security)   | `workshop_type: security` |
-| **Ansible Windows Automation Workshop** <br> focused on automation of Microsoft Windows  | [Deck](./decks/ansible_windows.pdf) | [Exercises](./exercises/ansible_windows)   | `workshop_type: windows` |
-
-90 minute abbreviated versions:
-
-| Workshop   | Presentation Deck  | Exercises  | Workshop Type Var   |
-|---|---|---|---|
-| **Ansible Red Hat Enterprise Linux Workshop** <br> focused on automating Linux platforms like Red Hat Enterprise Linux  | [Deck](./decks/ansible_rhel_90.pdf) | [Exercises](./exercises/ansible_rhel_90)  | `workshop_type: rhel_90`  |
+| **Ansible Red Hat Satellite as Code Workshop** <br> focused on the automated configuration and management of Red Hat Satellite using GitOps principles | [Deck](./decks/satellite_as_code.pdf) | [Exercises](./exercises/ansible_satellite_as_code)   | `workshop_type: satellite_as_code` |
 
 ## Lab Provisioner
  - [AWS Lab Provisioner](provisioner) - playbook that spins up instances on AWS for students to perform the exercises provided above.
-
-# Self Paced Exercises
-
- - [Vagrant Demo](vagrant-demo) - Self-paced network automation exercises that can be run on your personal laptop
-
-# Demos
-
- - [Demos](demos) - These demos are intended for effectively demonstrating Ansible capabilities with prescriptive guides on the Ansible Automation Workshop infrastructure.
 
 # Documentation
 
